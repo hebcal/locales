@@ -1,6 +1,11 @@
 # locales
 Translations for Hebcal events in multiple languages (Golang)
 
+[![Build Status](https://github.com/hebcal/locales/actions/workflows/go.yml/badge.svg)](https://github.com/hebcal/locales/actions/workflows/go.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/hebcal/locales)](https://goreportcard.com/report/github.com/hebcal/locales)
+[![GoDoc](https://pkg.go.dev/badge/github.com/hebcal/locales?status.svg)](https://pkg.go.dev/github.com/hebcal/locales)
+
+
 Adds support for the following locales:
 
 * `ashkenazi_komatz` - courtesy Chaim Leib Halbert
