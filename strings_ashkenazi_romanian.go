@@ -3,7 +3,7 @@
 // Source of truth is the .po files in these npm packages:
 //   @hebcal/hdate@0.22.4
 //   @hebcal/core@6.5.3
-//   @hebcal/locales@6.5.0
+//   @hebcal/locales@6.5.1
 //   @hebcal/leyning@9.5.5
 //   @hebcal/learning@6.9.5
 //
@@ -11,7 +11,7 @@
 
 package locales
 
-// Translations for ashkenazi_romanian (218 entries) -> tag und-x-ashk-romanian
+// Translations for ashkenazi_romanian (224 entries) -> tag und-x-ashk-romanian
 func init() {
 	Catalog.SetString(tag_ashkenazi_romanian, "Achrei Mot", "Aĥrei Mot")
 	Catalog.SetString(tag_ashkenazi_romanian, "Adar", "Odor")
@@ -33,8 +33,10 @@ func init() {
 	Catalog.SetString(tag_ashkenazi_romanian, "Berachot", "Broĥos")
 	Catalog.SetString(tag_ashkenazi_romanian, "Bereshit", "Breişis")
 	Catalog.SetString(tag_ashkenazi_romanian, "Beshalach", "Beşalach")
+	Catalog.SetString(tag_ashkenazi_romanian, "Birkat Hachamah", "Bircas Haĥamo")
 	Catalog.SetString(tag_ashkenazi_romanian, "Bo", "Boi")
 	Catalog.SetString(tag_ashkenazi_romanian, "Candle lighting", "Hadlokas neiros")
+	Catalog.SetString(tag_ashkenazi_romanian, "Chag HaBanot", "Ĥag HaBonos")
 	Catalog.SetString(tag_ashkenazi_romanian, "Chagigah", "Chagigo")
 	Catalog.SetString(tag_ashkenazi_romanian, "Chanukah", "Ĥanuco")
 	Catalog.SetString(tag_ashkenazi_romanian, "Chanukah: 1 Candle", "Ĥanuco: 1 Candelă")
@@ -122,6 +124,7 @@ func init() {
 	Catalog.SetString(tag_ashkenazi_romanian, "Pesachim", "Pâsoĥim")
 	Catalog.SetString(tag_ashkenazi_romanian, "Pinchas", "Pinĥos")
 	Catalog.SetString(tag_ashkenazi_romanian, "Purim Katan", "Purim Coton")
+	Catalog.SetString(tag_ashkenazi_romanian, "Purim Meshulash", "Purim Meşulaş")
 	Catalog.SetString(tag_ashkenazi_romanian, "Re'eh", "Reei")
 	Catalog.SetString(tag_ashkenazi_romanian, "Rosh Chodesh", "Roş Ĥoideş")
 	Catalog.SetString(tag_ashkenazi_romanian, "Rosh Chodesh Adar", "Roş Hodeş Adar")
@@ -135,6 +138,7 @@ func init() {
 	Catalog.SetString(tag_ashkenazi_romanian, "Rosh Chodesh Nisan", "Roş Hodesh Nisan")
 	Catalog.SetString(tag_ashkenazi_romanian, "Rosh Chodesh Sh'vat", "Roş Hodeş Şâvat")
 	Catalog.SetString(tag_ashkenazi_romanian, "Rosh Chodesh Sivan", "Roş Hodeş Sivan")
+	Catalog.SetString(tag_ashkenazi_romanian, "Rosh Chodesh Tammuz", "Roş Hodeş Tamuz")
 	Catalog.SetString(tag_ashkenazi_romanian, "Rosh Chodesh Tamuz", "Roş Hodeş Tamuz")
 	Catalog.SetString(tag_ashkenazi_romanian, "Rosh Chodesh Tevet", "Roş Hodeş Teives")
 	Catalog.SetString(tag_ashkenazi_romanian, "Rosh Hashana", "Roş Haşono")
@@ -153,6 +157,7 @@ func init() {
 	Catalog.SetString(tag_ashkenazi_romanian, "Shabbat Parah", "Şavos Poro")
 	Catalog.SetString(tag_ashkenazi_romanian, "Shabbat Rosh Chodesh", "Şavos Rosh Ĥoideş")
 	Catalog.SetString(tag_ashkenazi_romanian, "Shabbat Shekalim", "Şavos Şâqolim")
+	Catalog.SetString(tag_ashkenazi_romanian, "Shabbat Shirah", "Şavos Şiro")
 	Catalog.SetString(tag_ashkenazi_romanian, "Shabbat Shuva", "Şavos Şuvo")
 	Catalog.SetString(tag_ashkenazi_romanian, "Shabbat Zachor", "Şavos Zoĥor")
 	Catalog.SetString(tag_ashkenazi_romanian, "Shavuot", "Şâvuos")
@@ -166,6 +171,7 @@ func init() {
 	Catalog.SetString(tag_ashkenazi_romanian, "Shmini Atzeret", "Şmini Aţeres")
 	Catalog.SetString(tag_ashkenazi_romanian, "Shoftim", "Şoftim")
 	Catalog.SetString(tag_ashkenazi_romanian, "Shushan Purim", "Şuşon Purim")
+	Catalog.SetString(tag_ashkenazi_romanian, "Shushan Purim Katan", "Şuşon Purim Coton")
 	Catalog.SetString(tag_ashkenazi_romanian, "Simchat Torah", "Simĥas Toiro")
 	Catalog.SetString(tag_ashkenazi_romanian, "Sivan", "Sivon")
 	Catalog.SetString(tag_ashkenazi_romanian, "Sotah", "Soito")

@@ -3,7 +3,7 @@
 // Source of truth is the .po files in these npm packages:
 //   @hebcal/hdate@0.22.4
 //   @hebcal/core@6.5.3
-//   @hebcal/locales@6.5.0
+//   @hebcal/locales@6.5.1
 //   @hebcal/leyning@9.5.5
 //   @hebcal/learning@6.9.5
 //
@@ -11,7 +11,7 @@
 
 package locales
 
-// Translations for ashkenazi_poylish (163 entries) -> tag und-x-ashk-poylish
+// Translations for ashkenazi_poylish (167 entries) -> tag und-x-ashk-poylish
 func init() {
 	Catalog.SetString(tag_ashkenazi_poylish, "Achrei Mot", "Achrai")
 	Catalog.SetString(tag_ashkenazi_poylish, "Adar", "Odor")
@@ -32,8 +32,10 @@ func init() {
 	Catalog.SetString(tag_ashkenazi_poylish, "Beitzah", "Baitzu")
 	Catalog.SetString(tag_ashkenazi_poylish, "Berachot", "Bruchos")
 	Catalog.SetString(tag_ashkenazi_poylish, "Bereshit", "Braishis")
+	Catalog.SetString(tag_ashkenazi_poylish, "Birkat Hachamah", "Birkas Hachamo")
 	Catalog.SetString(tag_ashkenazi_poylish, "Bo", "Boy")
 	Catalog.SetString(tag_ashkenazi_poylish, "Candle lighting", "Hadlokas neyros")
+	Catalog.SetString(tag_ashkenazi_poylish, "Chag HaBanot", "Chag HaBonos")
 	Catalog.SetString(tag_ashkenazi_poylish, "Chagigah", "Chagigu")
 	Catalog.SetString(tag_ashkenazi_poylish, "Chanukah", "Chanukko")
 	Catalog.SetString(tag_ashkenazi_poylish, "Chanukah: 1 Candle", "Chanukko: 1 Candle")
@@ -126,6 +128,7 @@ func init() {
 	Catalog.SetString(tag_ashkenazi_poylish, "Shabbat Parah", "Shabbos Poro")
 	Catalog.SetString(tag_ashkenazi_poylish, "Shabbat Rosh Chodesh", "Shabbos Rosh Choydesh")
 	Catalog.SetString(tag_ashkenazi_poylish, "Shabbat Shekalim", "Shabbos Shkolim")
+	Catalog.SetString(tag_ashkenazi_poylish, "Shabbat Shirah", "Shabbos Shiro")
 	Catalog.SetString(tag_ashkenazi_poylish, "Shabbat Shuva", "Shabbos Shuvo")
 	Catalog.SetString(tag_ashkenazi_poylish, "Shabbat Zachor", "Shabbos Zochor")
 	Catalog.SetString(tag_ashkenazi_poylish, "Shavuot", "Shvuos")
@@ -136,6 +139,7 @@ func init() {
 	Catalog.SetString(tag_ashkenazi_poylish, "Shevuot", "Shvios")
 	Catalog.SetString(tag_ashkenazi_poylish, "Shmini Atzeret", "Shmini Atzeres")
 	Catalog.SetString(tag_ashkenazi_poylish, "Shushan Purim", "Shushon Purim")
+	Catalog.SetString(tag_ashkenazi_poylish, "Shushan Purim Katan", "Shushon Purim Koton")
 	Catalog.SetString(tag_ashkenazi_poylish, "Simchat Torah", "Simchas Toyro")
 	Catalog.SetString(tag_ashkenazi_poylish, "Sivan", "Sivon")
 	Catalog.SetString(tag_ashkenazi_poylish, "Sotah", "Soytu")

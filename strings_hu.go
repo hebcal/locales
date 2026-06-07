@@ -3,7 +3,7 @@
 // Source of truth is the .po files in these npm packages:
 //   @hebcal/hdate@0.22.4
 //   @hebcal/core@6.5.3
-//   @hebcal/locales@6.5.0
+//   @hebcal/locales@6.5.1
 //   @hebcal/leyning@9.5.5
 //   @hebcal/learning@6.9.5
 //
@@ -11,7 +11,7 @@
 
 package locales
 
-// Translations for hu (189 entries) -> tag hu
+// Translations for hu (196 entries) -> tag hu
 func init() {
 	Catalog.SetString(tag_hu, "Achrei Mot", "Ácháré Mot")
 	Catalog.SetString(tag_hu, "Adar", "Ádár")
@@ -34,7 +34,9 @@ func init() {
 	Catalog.SetString(tag_hu, "Berachot", "Bráchot")
 	Catalog.SetString(tag_hu, "Bereshit", "Bérésit")
 	Catalog.SetString(tag_hu, "Beshalach", "Bösálách")
+	Catalog.SetString(tag_hu, "Birkat Hachamah", "Birkát Háchámá")
 	Catalog.SetString(tag_hu, "Candle lighting", "Gyertyagyújtás")
+	Catalog.SetString(tag_hu, "Chag HaBanot", "Chág HáBánot")
 	Catalog.SetString(tag_hu, "Chagigah", "Chágigá")
 	Catalog.SetString(tag_hu, "Chanukah", "Chánuká")
 	Catalog.SetString(tag_hu, "Chanukah: 1 Candle", "Chánuká: 1 gyertya")
@@ -119,11 +121,13 @@ func init() {
 	Catalog.SetString(tag_hu, "Pesachim", "Peszáchim")
 	Catalog.SetString(tag_hu, "Pinchas", "Pinchász")
 	Catalog.SetString(tag_hu, "Purim Katan", "Purim Kátán")
+	Catalog.SetString(tag_hu, "Purim Meshulash", "Purim Mesulás")
 	Catalog.SetString(tag_hu, "Re'eh", "Röé")
 	Catalog.SetString(tag_hu, "Rosh Chodesh", "Ros chódes")
 	Catalog.SetString(tag_hu, "Rosh Hashana", "Ros hásáná")
 	Catalog.SetString(tag_hu, "Rosh Hashana I", "Ros hásáná I")
 	Catalog.SetString(tag_hu, "Rosh Hashana II", "Ros hásáná II")
+	Catalog.SetString(tag_hu, "Rosh Hashana LaBehemot", "Ros hásáná LáBehemot")
 	Catalog.SetString(tag_hu, "Sanhedrin", "Szánhedrin")
 	Catalog.SetString(tag_hu, "Sh'lach", "Slách")
 	Catalog.SetString(tag_hu, "Sh'vat", "Svát")
@@ -136,6 +140,7 @@ func init() {
 	Catalog.SetString(tag_hu, "Shabbat Parah", "Sábát Párá")
 	Catalog.SetString(tag_hu, "Shabbat Rosh Chodesh", "Sábát Ros chódes")
 	Catalog.SetString(tag_hu, "Shabbat Shekalim", "Sábát Skálim")
+	Catalog.SetString(tag_hu, "Shabbat Shirah", "Sábát Sirá")
 	Catalog.SetString(tag_hu, "Shabbat Shuva", "Sábát Suvá")
 	Catalog.SetString(tag_hu, "Shabbat Zachor", "Sábát Záchor")
 	Catalog.SetString(tag_hu, "Shavuot", "Sávuot")
@@ -148,6 +153,7 @@ func init() {
 	Catalog.SetString(tag_hu, "Shmini Atzeret", "Smini áceret")
 	Catalog.SetString(tag_hu, "Shoftim", "Softim")
 	Catalog.SetString(tag_hu, "Shushan Purim", "Susán purim")
+	Catalog.SetString(tag_hu, "Shushan Purim Katan", "Susán purim Kátán")
 	Catalog.SetString(tag_hu, "Simchat Torah", "Szimchát Tóra")
 	Catalog.SetString(tag_hu, "Sivan", "Sziván")
 	Catalog.SetString(tag_hu, "Sotah", "Szotá")
@@ -165,6 +171,7 @@ func init() {
 	Catalog.SetString(tag_hu, "Ta'anit Esther", "Táánit Eszter")
 	Catalog.SetString(tag_hu, "Taanit", "Táánit")
 	Catalog.SetString(tag_hu, "Tamid", "Támid")
+	Catalog.SetString(tag_hu, "Tammuz", "Támuz")
 	Catalog.SetString(tag_hu, "Tamuz", "Támuz")
 	Catalog.SetString(tag_hu, "Tazria", "Tázriá")
 	Catalog.SetString(tag_hu, "Temurah", "Tmurá")

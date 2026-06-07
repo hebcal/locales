@@ -3,7 +3,7 @@
 // Source of truth is the .po files in these npm packages:
 //   @hebcal/hdate@0.22.4
 //   @hebcal/core@6.5.3
-//   @hebcal/locales@6.5.0
+//   @hebcal/locales@6.5.1
 //   @hebcal/leyning@9.5.5
 //   @hebcal/learning@6.9.5
 //
@@ -11,7 +11,7 @@
 
 package locales
 
-// Translations for ashkenazi_komatz (167 entries) -> tag und-x-ashk-komatz
+// Translations for ashkenazi_komatz (172 entries) -> tag und-x-ashk-komatz
 func init() {
 	Catalog.SetString(tag_ashkenazi_komatz, "Achrei Mot", "Acharei")
 	Catalog.SetString(tag_ashkenazi_komatz, "Adar", "Ador")
@@ -40,6 +40,8 @@ func init() {
 	Catalog.SetString(tag_ashkenazi_komatz, "Berachot", "B'rachos")
 	Catalog.SetString(tag_ashkenazi_komatz, "Bereshit", "B'reishis")
 	Catalog.SetString(tag_ashkenazi_komatz, "Beshalach", "B'shalach")
+	Catalog.SetString(tag_ashkenazi_komatz, "Birkat Hachamah", "Birkas Hachamo")
+	Catalog.SetString(tag_ashkenazi_komatz, "Chag HaBanot", "Chag HaBonos")
 	Catalog.SetString(tag_ashkenazi_komatz, "Chagigah", "Chogigo")
 	Catalog.SetString(tag_ashkenazi_komatz, "Chanukah", "Chanuko")
 	Catalog.SetString(tag_ashkenazi_komatz, "Chanukah: 1 Candle", "Chanuko: 1 Candle")
@@ -121,6 +123,7 @@ func init() {
 	Catalog.SetString(tag_ashkenazi_komatz, "Shabbat Parah", "Shabbos Poro")
 	Catalog.SetString(tag_ashkenazi_komatz, "Shabbat Rosh Chodesh", "Shabbos Rosh Chodesh")
 	Catalog.SetString(tag_ashkenazi_komatz, "Shabbat Shekalim", "Shabbos Shekolim")
+	Catalog.SetString(tag_ashkenazi_komatz, "Shabbat Shirah", "Shabbos Shiro")
 	Catalog.SetString(tag_ashkenazi_komatz, "Shabbat Shuva", "Shabbos Shuvo")
 	Catalog.SetString(tag_ashkenazi_komatz, "Shabbat Zachor", "Shabbos Zochor")
 	Catalog.SetString(tag_ashkenazi_komatz, "Shavuot", "Shovu'os")
@@ -132,6 +135,7 @@ func init() {
 	Catalog.SetString(tag_ashkenazi_komatz, "Shmini", "Sh'mini")
 	Catalog.SetString(tag_ashkenazi_komatz, "Shmini Atzeret", "Sh'mini Atzeres")
 	Catalog.SetString(tag_ashkenazi_komatz, "Shushan Purim", "Shushon Purim")
+	Catalog.SetString(tag_ashkenazi_komatz, "Shushan Purim Katan", "Shushon Purim Koton")
 	Catalog.SetString(tag_ashkenazi_komatz, "Simchat Torah", "Simchas Toro")
 	Catalog.SetString(tag_ashkenazi_komatz, "Sivan", "Sivon")
 	Catalog.SetString(tag_ashkenazi_komatz, "Sotah", "Soto")
@@ -149,6 +153,7 @@ func init() {
 	Catalog.SetString(tag_ashkenazi_komatz, "Ta'anit Esther", "Ta'anis Ester")
 	Catalog.SetString(tag_ashkenazi_komatz, "Taanit", "Ta'anis")
 	Catalog.SetString(tag_ashkenazi_komatz, "Tamid", "Tomid")
+	Catalog.SetString(tag_ashkenazi_komatz, "Tammuz", "Tammuz")
 	Catalog.SetString(tag_ashkenazi_komatz, "Tamuz", "Tammuz")
 	Catalog.SetString(tag_ashkenazi_komatz, "Tazria", "Tazri'a")
 	Catalog.SetString(tag_ashkenazi_komatz, "Tefilah, sof zeman", "Sof Z'man T'filo")

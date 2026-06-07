@@ -3,7 +3,7 @@
 // Source of truth is the .po files in these npm packages:
 //   @hebcal/hdate@0.22.4
 //   @hebcal/core@6.5.3
-//   @hebcal/locales@6.5.0
+//   @hebcal/locales@6.5.1
 //   @hebcal/leyning@9.5.5
 //   @hebcal/learning@6.9.5
 //
@@ -11,7 +11,7 @@
 
 package locales
 
-// Translations for de (178 entries) -> tag de
+// Translations for de (185 entries) -> tag de
 func init() {
 	Catalog.SetString(tag_de, "Achrei Mot", "Acharei Mot")
 	Catalog.SetString(tag_de, "Asara B'Tevet", "Asara beTewet")
@@ -23,6 +23,7 @@ func init() {
 	Catalog.SetString(tag_de, "Berachot", "Brachot")
 	Catalog.SetString(tag_de, "Bereshit", "Bereschit")
 	Catalog.SetString(tag_de, "Beshalach", "Beschalach")
+	Catalog.SetString(tag_de, "Birkat Hachamah", "Birkat Hachama")
 	Catalog.SetString(tag_de, "Candle lighting", "Kerzenzünden")
 	Catalog.SetString(tag_de, "Chanukah", "Channukah")
 	Catalog.SetString(tag_de, "Chanukah: 1 Candle", "Channukah: 1 Kerze")
@@ -93,6 +94,7 @@ func init() {
 	Catalog.SetString(tag_de, "Pesach VII", "Pessach VII")
 	Catalog.SetString(tag_de, "Pesach VIII", "Pessach VIII")
 	Catalog.SetString(tag_de, "Pesachim", "Pessachim")
+	Catalog.SetString(tag_de, "Purim Meshulash", "Purim Meschulasch")
 	Catalog.SetString(tag_de, "Re'eh", "Re'e")
 	Catalog.SetString(tag_de, "Rosh Chodesh", "Rosch Chodesch")
 	Catalog.SetString(tag_de, "Rosh Chodesh Adar", "Rosch Chodesch Adar")
@@ -106,12 +108,14 @@ func init() {
 	Catalog.SetString(tag_de, "Rosh Chodesh Nisan", "Rosch Chodesch Nissan")
 	Catalog.SetString(tag_de, "Rosh Chodesh Sh'vat", "Rosch Chodesch Schwat")
 	Catalog.SetString(tag_de, "Rosh Chodesh Sivan", "Rosch Chodesch Siwan")
+	Catalog.SetString(tag_de, "Rosh Chodesh Tammuz", "Rosch Chodesch Tammus")
 	Catalog.SetString(tag_de, "Rosh Chodesh Tamuz", "Rosch Chodesch Tammus")
 	Catalog.SetString(tag_de, "Rosh Chodesh Tevet", "Rosch Chodesch Tewet")
 	Catalog.SetString(tag_de, "Rosh Hashana", "Rosch haSchana")
 	Catalog.SetString(tag_de, "Rosh Hashana I", "Rosch haSchana I")
 	Catalog.SetString(tag_de, "Rosh Hashana I (on Shabbat)", "Rosch haSchana I (am Schabbat)")
 	Catalog.SetString(tag_de, "Rosh Hashana II", "Rosch HaSchana II")
+	Catalog.SetString(tag_de, "Rosh Hashana LaBehemot", "Rosch haSchana LaBehemot")
 	Catalog.SetString(tag_de, "Sh'lach", "Schlach")
 	Catalog.SetString(tag_de, "Sh'vat", "Schwat")
 	Catalog.SetString(tag_de, "Shabbat", "Schabbat")
@@ -123,6 +127,7 @@ func init() {
 	Catalog.SetString(tag_de, "Shabbat Parah", "Schabat Parah")
 	Catalog.SetString(tag_de, "Shabbat Rosh Chodesh", "Schabat Rosh Chodesch")
 	Catalog.SetString(tag_de, "Shabbat Shekalim", "Schabat Schkalim")
+	Catalog.SetString(tag_de, "Shabbat Shirah", "Schabbat Schira")
 	Catalog.SetString(tag_de, "Shabbat Shuva", "Schabbat Shuwa")
 	Catalog.SetString(tag_de, "Shabbat Zachor", "Schabat Sachor")
 	Catalog.SetString(tag_de, "Shavuot", "Schawuot")
@@ -136,6 +141,7 @@ func init() {
 	Catalog.SetString(tag_de, "Shmini Atzeret", "Schmini Azeret")
 	Catalog.SetString(tag_de, "Shoftim", "Schoftim")
 	Catalog.SetString(tag_de, "Shushan Purim", "Schuschan Purim")
+	Catalog.SetString(tag_de, "Shushan Purim Katan", "Schuschan Purim Katan")
 	Catalog.SetString(tag_de, "Sivan", "Siwan")
 	Catalog.SetString(tag_de, "Sukkot Chol ha-Moed Day 1", "Sukkot Chol haMoed Tag 1")
 	Catalog.SetString(tag_de, "Sukkot Chol ha-Moed Day 2", "Sukkot Chol haMoed Tag 2")
@@ -152,6 +158,7 @@ func init() {
 	Catalog.SetString(tag_de, "Sukkot VII (Hoshana Raba)", "Sukkot VII (Hoschana Raba)")
 	Catalog.SetString(tag_de, "Ta'anit Bechorot", "Taanit Bechorot")
 	Catalog.SetString(tag_de, "Ta'anit Esther", "Taanit Esther")
+	Catalog.SetString(tag_de, "Tammuz", "Tammus")
 	Catalog.SetString(tag_de, "Tamuz", "Tammus")
 	Catalog.SetString(tag_de, "Tazria", "Tasria")
 	Catalog.SetString(tag_de, "Terumah", "Trumah")

@@ -3,7 +3,7 @@
 // Source of truth is the .po files in these npm packages:
 //   @hebcal/hdate@0.22.4
 //   @hebcal/core@6.5.3
-//   @hebcal/locales@6.5.0
+//   @hebcal/locales@6.5.1
 //   @hebcal/leyning@9.5.5
 //   @hebcal/learning@6.9.5
 //
@@ -11,7 +11,7 @@
 
 package locales
 
-// Translations for ashkenazi_standard (110 entries) -> tag und-x-ashk-standard
+// Translations for ashkenazi_standard (114 entries) -> tag und-x-ashk-standard
 func init() {
 	Catalog.SetString(tag_ashkenazi_standard, "Achrei Mot", "Acharei")
 	Catalog.SetString(tag_ashkenazi_standard, "Alot haShachar", "Alos HaShachar")
@@ -30,6 +30,8 @@ func init() {
 	Catalog.SetString(tag_ashkenazi_standard, "Bekhorot", "Bechoros")
 	Catalog.SetString(tag_ashkenazi_standard, "Berachot", "Berachos")
 	Catalog.SetString(tag_ashkenazi_standard, "Bereshit", "Bereishis")
+	Catalog.SetString(tag_ashkenazi_standard, "Birkat Hachamah", "Birkas Hachamah")
+	Catalog.SetString(tag_ashkenazi_standard, "Chag HaBanot", "Chag HaBonos")
 	Catalog.SetString(tag_ashkenazi_standard, "Chatzot hayom", "Chatzos HaYom")
 	Catalog.SetString(tag_ashkenazi_standard, "Chatzot HaYom", "Chatzos HaYom")
 	Catalog.SetString(tag_ashkenazi_standard, "Chayei Sara", "Chayei Sarah")
@@ -80,6 +82,7 @@ func init() {
 	Catalog.SetString(tag_ashkenazi_standard, "Shabbat Parah", "Shabbos Parah")
 	Catalog.SetString(tag_ashkenazi_standard, "Shabbat Rosh Chodesh", "Shabbos Rosh Chodesh")
 	Catalog.SetString(tag_ashkenazi_standard, "Shabbat Shekalim", "Shabbos Shekalim")
+	Catalog.SetString(tag_ashkenazi_standard, "Shabbat Shirah", "Shabbos Shirah")
 	Catalog.SetString(tag_ashkenazi_standard, "Shabbat Shuva", "Shabbos Shuvah")
 	Catalog.SetString(tag_ashkenazi_standard, "Shabbat Zachor", "Shabbos Zachor")
 	Catalog.SetString(tag_ashkenazi_standard, "Shavuot", "Shavuos")
@@ -102,6 +105,7 @@ func init() {
 	Catalog.SetString(tag_ashkenazi_standard, "Ta'anit Bechorot", "Ta'anis Bechoros")
 	Catalog.SetString(tag_ashkenazi_standard, "Ta'anit Esther", "Ta'anis Ester")
 	Catalog.SetString(tag_ashkenazi_standard, "Taanit", "Ta'anis")
+	Catalog.SetString(tag_ashkenazi_standard, "Tammuz", "Tammuz")
 	Catalog.SetString(tag_ashkenazi_standard, "Tamuz", "Tammuz")
 	Catalog.SetString(tag_ashkenazi_standard, "Tefilah, sof zeman", "Sof Zman Tefilah")
 	Catalog.SetString(tag_ashkenazi_standard, "Tevet", "Teives")

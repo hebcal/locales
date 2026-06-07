@@ -3,7 +3,7 @@
 // Source of truth is the .po files in these npm packages:
 //   @hebcal/hdate@0.22.4
 //   @hebcal/core@6.5.3
-//   @hebcal/locales@6.5.0
+//   @hebcal/locales@6.5.1
 //   @hebcal/leyning@9.5.5
 //   @hebcal/learning@6.9.5
 //
@@ -11,7 +11,7 @@
 
 package locales
 
-// Translations for yi (202 entries) -> tag yi
+// Translations for yi (203 entries) -> tag yi
 func init() {
 	Catalog.SetString(tag_yi, "Achrei Mot", "אחרי מות")
 	Catalog.SetString(tag_yi, "Adar", "אדר")
@@ -177,6 +177,7 @@ func init() {
 	Catalog.SetString(tag_yi, "Ta'anit Esther", "תענית אסתר")
 	Catalog.SetString(tag_yi, "Taanit", "תענית")
 	Catalog.SetString(tag_yi, "Tamid", "תמיד")
+	Catalog.SetString(tag_yi, "Tammuz", "תמוז")
 	Catalog.SetString(tag_yi, "Tamuz", "תמוז")
 	Catalog.SetString(tag_yi, "Tazria", "תזריע")
 	Catalog.SetString(tag_yi, "Temurah", "תמורה")

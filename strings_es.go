@@ -3,7 +3,7 @@
 // Source of truth is the .po files in these npm packages:
 //   @hebcal/hdate@0.22.4
 //   @hebcal/core@6.5.3
-//   @hebcal/locales@6.5.0
+//   @hebcal/locales@6.5.1
 //   @hebcal/leyning@9.5.5
 //   @hebcal/learning@6.9.5
 //
@@ -11,7 +11,7 @@
 
 package locales
 
-// Translations for es (133 entries) -> tag es
+// Translations for es (137 entries) -> tag es
 func init() {
 	Catalog.SetString(tag_es, "Achrei Mot", "Ajarei Mot")
 	Catalog.SetString(tag_es, "Arachin", "Arajin")
@@ -21,7 +21,9 @@ func init() {
 	Catalog.SetString(tag_es, "Behar", "Bejar")
 	Catalog.SetString(tag_es, "Berachot", "Berajot")
 	Catalog.SetString(tag_es, "Beshalach", "Beshalaj")
+	Catalog.SetString(tag_es, "Birkat Hachamah", "Birkat Hajama")
 	Catalog.SetString(tag_es, "Candle lighting", "Iluminación de velas")
+	Catalog.SetString(tag_es, "Chag HaBanot", "Jag HaBanot")
 	Catalog.SetString(tag_es, "Chagigah", "Jaguigá")
 	Catalog.SetString(tag_es, "Chanukah", "Jánuca")
 	Catalog.SetString(tag_es, "Chanukah: 1 Candle", "Janucá: 1 vela")
@@ -94,6 +96,7 @@ func init() {
 	Catalog.SetString(tag_es, "Rosh Chodesh Nisan", "Rosh Jodesh Nisan")
 	Catalog.SetString(tag_es, "Rosh Chodesh Sh'vat", "Rosh Jodesh Sh'vat")
 	Catalog.SetString(tag_es, "Rosh Chodesh Sivan", "Rosh Jodesh Sivan")
+	Catalog.SetString(tag_es, "Rosh Chodesh Tammuz", "Rosh Jodesh Tamuz")
 	Catalog.SetString(tag_es, "Rosh Chodesh Tamuz", "Rosh Jodesh Tamuz")
 	Catalog.SetString(tag_es, "Rosh Chodesh Tevet", "Rosh Jodesh Tevet")
 	Catalog.SetString(tag_es, "Rosh Hashana I (on Shabbat)", "Rosh Hashana I (en Shabat)")
@@ -108,6 +111,7 @@ func init() {
 	Catalog.SetString(tag_es, "Shabbat Parah", "Shabat Parah")
 	Catalog.SetString(tag_es, "Shabbat Rosh Chodesh", "Shabat Rosh Jodesh")
 	Catalog.SetString(tag_es, "Shabbat Shekalim", "Shabat Shekalim")
+	Catalog.SetString(tag_es, "Shabbat Shirah", "Shabat Shira")
 	Catalog.SetString(tag_es, "Shabbat Zachor", "Shabat Zajor")
 	Catalog.SetString(tag_es, "Shavuot II (on Shabbat)", "Shavuot II (en Shabat)")
 	Catalog.SetString(tag_es, "Shevuot", "Shavuot")
