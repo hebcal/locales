@@ -133,7 +133,7 @@ func LookupTranslation(key string, locale string) (string, bool) {
 		return key, false
 	}
 	s := p.Sprintf(key)
-	if s == key && lang == "en" {
+	if s == key && lang == "en" && !strings.HasPrefix(key, "MEMO:") {
 		return key, true
 	}
 	if s == key {
