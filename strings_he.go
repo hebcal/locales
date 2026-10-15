@@ -2,17 +2,17 @@
 //
 // Source of truth is the .po files in these npm packages:
 //   @hebcal/hdate@0.23.1
-//   @hebcal/core@6.14.1
+//   @hebcal/core@6.14.4
 //   @hebcal/locales@6.5.3
 //   @hebcal/leyning@10.1.0
 //   @hebcal/rest-api@7.3.1
-//   @hebcal/learning@6.12.0
+//   @hebcal/learning@6.12.2
 //
 // Regenerate with: npm run generate
 
 package locales
 
-// Translations for he (595 entries) -> tag he
+// Translations for he (596 entries) -> tag he
 func init() {
 	Catalog.SetString(tag_he, "Achrei Mot", "אַחֲרֵי מוֹת")
 	Catalog.SetString(tag_he, "Adar", "אֲדָר")
@@ -339,6 +339,7 @@ func init() {
 	Catalog.SetString(tag_he, "Murderer and the Preservation of Life", "הלכות רוצח ושמירת נפש")
 	Catalog.SetString(tag_he, "Nach Yomi", "נ״ך יוֹמִי")
 	Catalog.SetString(tag_he, "Nachum", "נַחוּם")
+	Catalog.SetString(tag_he, "Nahum", "נַחוּם")
 	Catalog.SetString(tag_he, "Nasso", "נָשׂא")
 	Catalog.SetString(tag_he, "Nazariteship", "הלכות נזירות")
 	Catalog.SetString(tag_he, "Nazir", "נזיר")
