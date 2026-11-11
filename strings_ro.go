@@ -2,11 +2,11 @@
 //
 // Source of truth is the .po files in these npm packages:
 //   @hebcal/hdate@0.23.1
-//   @hebcal/core@6.14.4
-//   @hebcal/locales@6.5.3
+//   @hebcal/core@6.16.0
+//   @hebcal/locales@6.6.0
 //   @hebcal/leyning@10.1.0
-//   @hebcal/rest-api@7.3.1
-//   @hebcal/learning@6.12.2
+//   @hebcal/rest-api@7.3.2
+//   @hebcal/learning@6.13.1
 //
 // Regenerate with: npm run generate
 
